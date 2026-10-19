@@ -1478,6 +1478,7 @@
     setDiff(G.diff);
     setPads(saved.pads);
     muteIcon();
+    if (Kit.sound.onMute) Kit.sound.onMute(muteIcon); // the kit's own speaker button and the ? panel flip it too
     wire();
     if (matchMedia('(hover: none) and (pointer: coarse)').matches) setTouch(true);
     $('loading').classList.add('hidden');

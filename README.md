@@ -74,7 +74,7 @@ The mazes are this game's own, drawn by hand as text in `js/mazes.js` (21 × 19,
 - In 1 player both key sets work, so arrows are fine too.
 - **Swipes:** a small slide of your finger is enough, and you can keep steering without lifting it. A big arrow flashes to show the swipe was seen. With two players on one iPad, the left half of the screen steers player 1 and the right half player 2.
 - **D-pads:** on a touch screen, **🎮 D-PAD** on the title screen turns on a round pad (thumb on it, slide to steer). In 2 players each brother gets his own pad in his corner, with his companion button beside it.
-- **P** or Esc pauses and **M** turns the sound on or off. The ❚❚ and 🔊 buttons at the top do the same.
+- **P** or Esc pauses and **M** turns the sound on or off. The ❚❚ and 🔊 buttons at the top do the same. On the menus, the round speaker button under the A文 button (and the speaker in the ? panel) mutes too, and they all stay in step.
 - **Menus:** ← → pick 1 or 2 players, ↑ ↓ switch Easy / Normal, Enter goes, 1 and 2 jump straight in. On the hero screen A D (and ← →) pick the heroes, W S pick the maze, Enter goes and Esc goes back.
 
 ## Companion

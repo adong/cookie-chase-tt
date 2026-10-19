@@ -10,4 +10,7 @@ Kit.help.setup({
   ],
   note: 'In 1 player both sets of keys work. Press a way early and he turns at the next corner.',
   touch: "Swipe anywhere to steer (two players: left half and right half), and tap your brother's face to call him.",
+  // a little higher than the kit's default, so on a phone held sideways the A文 button clears player 1's d-pad
+  button: { top: 'calc(50% - 72px)', left: 'max(10px, env(safe-area-inset-left))' },
 });
+Kit.lang.setup({ button: { top: 'calc(50% - 24px)', left: 'max(10px, env(safe-area-inset-left))' } });
